@@ -105,7 +105,7 @@ p.black-text{
 }
 
 .loading {
-	background: url('../images/ico_loading.gif') no-repeat center center;
+	background: url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/ico_loading.gif') no-repeat center center;
 }
 section {
 	min-width: 960px;
@@ -141,13 +141,13 @@ main {
 }
 
 /* Slide 1 */
-#slide-1 .bcg1 {background-image:url('../images/humpback_whale.jpg')}
+#slide-1 .bcg1 {background-image:url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/humpback_whale.jpg')}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; text-align: center}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../images/jumping_cat.jpg')}
+#slide-3 .bcg {background-image:url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/jumping_cat.jpg')}
 #slide-3 .bcg2 {background-image: none; background-color: #000000; position: absolute; top: 0; left: 0;}
 
 /* Slide 4 */
@@ -155,12 +155,12 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../images/earth.jpg')}
+#slide-4 .bcg {background-image:url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/earth.jpg')}
 
 /* Slide 5 */
 #slide-5 {position: relative;}
-#slide-5 .bcg {background-image:url('../images/dogs_and_cats.jpg')}
-#slide-5 .bcg2 {background-image:url('../images/dogs-and-cats-b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
+#slide-5 .bcg {background-image:url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/dogs_and_cats.jpg')}
+#slide-5 .bcg2 {background-image:url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/dogs-and-cats-b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
 #slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2;}
 
 .hsContainer {
