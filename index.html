@@ -20,9 +20,9 @@
 <!-- Text gets faded before leaving viewport. This slide moves background image at a slower speed then the page scroll. Text is fading out to opacity 0 at 106 pixels from the top.   -->  
        	<main>       	 
 	        <section id="slide-1" class="homeSlide" id="skrollr-body">
-	        	<div class="bcg1" id="skrollr-body" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-anchor-target="#slide-1">
-		        	<div class="hsContainer" id="skrollr-body">
-			    		<div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2" id="skrollr-body">
+	        	<div class="bcg1" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" data-anchor-target="#slide-1">
+		        	<div class="hsContainer">
+			    		<div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
 				    		<h2>Humpback whales on my website!</h2>
 				    		<p>You may not understand what they are saying, but who cares? Whales are cool!</p>
 			    		</div>
@@ -104,18 +104,18 @@
 		</main>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"></script>')</script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/waypoints.min.js"></script>
-        <script src="js/skrollr.min.js"></script>
         <!--[if lt IE 9]>
 		<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
 		<![endif]-->
         <script src="js/moremain.js"></script>
-    <script>
-      skrollr.init({
-        forceHeight: false
-      });
-    </script>
+        <script src="js/skrollr.min.js"></script>
+        <script>
+          skrollr.init({
+            forceHeight: false
+          });
+        </script>
     </body>
 </html>
