@@ -28,6 +28,12 @@ body {
     text-shadow: none;
 }
 
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
 /*
  * A better looking default horizontal rule
  */

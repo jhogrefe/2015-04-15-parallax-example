@@ -107,11 +107,15 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/waypoints.min.js"></script>
-        <script src="js/skrollr.js"></script>
+        <script src="js/skrollr.min.js"></script>
         <!--[if lt IE 9]>
 		<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
 		<![endif]-->
         <script src="js/moremain.js"></script>
-
+    <script>
+      skrollr.init({
+        forceHeight: false
+      });
+    </script>
     </body>
 </html>
