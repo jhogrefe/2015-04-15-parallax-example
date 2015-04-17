@@ -113,7 +113,7 @@ p.black-text{
 	background: url('http://jhogrefe.github.io/2015-04-15-parallax-example/images/ico_loading.gif') no-repeat center center;
 }
 section {
-	min-width: 960px;
+	width: 100%;
 	opacity: 0;
 }
 .loaded section,
@@ -141,7 +141,7 @@ main {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 160%;
+	height: 120%;
 	width: 100%;
 }
 
@@ -196,7 +196,7 @@ main {
 		margin-bottom: 12px;
 	}
 	.hsContent p {
-		width: 400px;
+		width: 100%;
 		margin: 0 auto;
 		color: #b2b2b2;
 	}
